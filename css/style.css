@@ -34,3 +34,32 @@ body {
     border-radius: 2rem;
     
 }
+
+#login-form {
+    background-color: white;
+}
+
+#greeting {
+    background-color: white;
+    text-align: center;
+}
+
+#todo-form {
+    width: 2rem;
+    height: 2rem;
+}
+
+#quote {
+    background-color: white;
+    text-align: center;
+}
+
+#weather {
+    background-color: white;
+    border-style: dashed;
+}
+
+#todo-list {
+    background-color: white;
+    margin-top: 8rem;
+}
