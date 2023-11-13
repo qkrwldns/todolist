@@ -22,7 +22,7 @@ function showTodo(newTodo) {
     const spen = document.createElement("span");
     spen.innerText = newTodo.text;
     const button = document.createElement("button");
-    button.innerText = " ❌";
+    button.innerText = "❌";
     li.appendChild(spen);
     li.appendChild(button);
     todoList.appendChild(li);

@@ -76,15 +76,13 @@ body {
 
 @media screen and (max-width: 600px) {
     #clock {
-        text-align: center;
-        /* 수평 가운데 정렬 */
-        position: absolute;
-        /* 절대 위치 설정 */
-        top: 33.5%;
-        /* 부모 요소의 상단에서 50% 떨어진 위치 */
-        left: 50%;
-        /* 부모 요소의 왼쪽에서 50% 떨어진 위치 */
-        transform: translate(-50%, -50%);
+        top: 35vh;
+        /* Adjusted to 40% of the viewport height */
+    }
+
+    #todo-form input {
+        width: 100%;
+        /* Make the input width 100% for better responsiveness */
     }
 }
 
