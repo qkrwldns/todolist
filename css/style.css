@@ -27,11 +27,8 @@ body {
     transform: translate(-50%, -50%);
     /* 요소의 중심을 중앙으로 이동 */
     font-size: 4rem;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border-color: rgb(0, 0, 0);
-    border-style:inset;
-    border-radius: 2rem;
+    color: white;
+
     
 }
 
@@ -39,19 +36,28 @@ body {
     background-color: white;
 }
 
-#greeting {
-    background-color: white;
-    text-align: center;
-}
-
 #todo-form {
     width: 2rem;
     height: 2rem;
 }
 
+#greeting {
+    color: white;
+    text-align: center;
+}
+
 #quote {
     background-color: white;
     text-align: center;
+}
+
+#quote-text {
+    font-weight: bold;
+}
+
+#get-random-quote {
+    margin-top: 3px;
+    margin-bottom: 7px;
 }
 
 #weather {
@@ -64,13 +70,15 @@ body {
 }
 
 #todo-list {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     margin-top: 8rem;
+    padding: 5px;
     list-style: none;
 }
 
 #todo-list span {
-    margin-right: 0.5rem;
+    margin-right: 1cap;
+    font-weight: bold;
 }
 
 
@@ -97,4 +105,8 @@ body {
 /* Add some basic styles for the strikethrough effect */
 li.completed span {
     text-decoration: line-through;
+}
+
+ul li input {
+    margin: 5px 15px 0 0;
 }
